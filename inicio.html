@@ -1,58 +1,62 @@
 <html>
-
-<header>
-    <img>
-    <button>inicio</button>
-    <button>tendencias</button>
-    <button>biblioteca</button>
-    <button>upregrade</button>
-</header>
-
-<banner>
-    <p>destaque da semana</p>
+    <div>
+        
+        <header>
+            <img>
+            <button>inicio</button>
+            <button>tendencias</button>
+            <button>biblioteca</button>
+            <button>upregrade</button>
+        </header>
+        
+        <banner>
+            <p>destaque da semana</p>
+            
+            <h1>beyound the horizon</h1>
+            
+            <p>uma jornada irmesiva pelas fronteiras da tecnologia e design.assistir agora em 4k HDR.</p>
+            
+            <button class="botao-azul">assistir agora</button>
+            
+            <button class="botao-transparte">+ minha lista</button>
+            
+        </banner>
+        
+        <h3>recomendados para você</h3>
+        <carrossel>
+            <card>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnzpO-S8uvsftuAhqe3VwqrlHSQsAXPeaZw&s"/>
+                <h4>retrogaming o futuro do passado</h4>
+            </card>
+            
+            <card>
+                <img src="https://d36qmzp7jiean8.cloudfront.net/cliente_012103/veiculos/1358943_202603182018127274971_big.webp"/>
+                <h4>teoria das cores no design</h4>
+            </card>
+            
+            <card>
+                <img src="https://www.agrofinder.com.br/storage/products/991/WhatsApp%20Image%202021-10-15%20at%2016.04.23.jpeg"/>
+                <h4>exploraçao especial 2026</h4>
+            </card>
+            
+            <card>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrTgjAUuVoLl_Wd85gaV7GsWQllIzPEqJ_hQ&s"/>
+                <h4>setup setup dev edition</h4>
+            </card>
+            
+            
+        </carrossel>
+        
+    </div>
     
-    <h1>beyound the horizon</h1>
+    <img class="fundo" src="https://i.imgur.com/W8fs3L2.png"/>
     
-    <p>uma jornada irmesiva pelas fronteiras da tecnologia e design.assistir agora em 4k HDR.</p>
-    
-    <button class="botao-azul">assistir agora</button>
-    
-    <button class="botao-transparte">+ minha lista</button>
-    
-</banner>
-
-<h3>recomendados para você</h3>
-<carrossel>
-    <card>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnzpO-S8uvsftuAhqe3VwqrlHSQsAXPeaZw&s"/>
-        <h4>retrogaming o futuro do passado</h4>
-    </card>
-    
-    <card>
-        <img src="https://d36qmzp7jiean8.cloudfront.net/cliente_012103/veiculos/1358943_202603182018127274971_big.webp"/>
-        <h4>teoria das cores no design</h4>
-    </card>
-    
-    <card>
-        <img src="https://www.agrofinder.com.br/storage/products/991/WhatsApp%20Image%202021-10-15%20at%2016.04.23.jpeg"/>
-        <h4>exploraçao especial 2026</h4>
-    </card>
-    
-    <card>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrTgjAUuVoLl_Wd85gaV7GsWQllIzPEqJ_hQ&s"/>
-        <h4>setup setup dev edition</h4>
-    </card>
-    
-    
-</carrossel>
-
-<img  src="https://i.imgur.com/W8fs3L2.png"/>
-<style>
-    .botao-azul {}
-
-    .botao-transparente {}
-
-
+    <style>
+        .botao-azul {}
+        
+        .botao-transparente {}
+        
+        
     carrossel{
         display: flex;
     }
@@ -61,9 +65,10 @@
         width: 400px;
     }
 
-    banner img{
-        width: 100%;
+    .fundo{
         position: absolute;
+        width: 100%;
+        top: -500px;
     }
 </style>
 
